@@ -1,4 +1,4 @@
-**OS: CentOS
+OS: **CentOS**
 
 Compilator: NASM
 
