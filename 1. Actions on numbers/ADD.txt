@@ -1,0 +1,4 @@
+;	Przenoszenie danych
+
+move	eax, 10			;/ op2 -> eax
+xchg	op1, op2		;/ <->
