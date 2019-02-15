@@ -1,16 +1,24 @@
-OS: CentOS
-Compilator: NASM
+**OS:**
+> CentOS
 
-Required packages: yum install gdb
-		   yum update
+**Compilator:** 
+> NASM
 
-Compilation: 	nasm -f elf64 hello64.asm -o hello64.o
+**Required packages:** 
+> yum install gdb
+> yum update
 
-Link:		ld hello64.o -o hello64
+**Compilation:** 	
+> nasm -f elf64 hello64.asm -o hello64.o
 
-optionally, if the executable file does not appear:
-ld hello64.o
+**Link:**		
+> ld hello64.o -o hello64
 
-Run:		./hello64
+**optionally, if the executable file does not appear:**
+> ld hello64.o
 
-Debugging:	nasm -f dbg hello64.asm
+**Run:**		
+> ./hello64
+
+**Debugging:**	
+> nasm -f dbg hello64.asm
